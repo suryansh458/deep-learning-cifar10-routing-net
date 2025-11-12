@@ -1,35 +1,32 @@
 # CIFAR-10 RoutingNet (PyTorch)
 
-Production-quality deep-learning repo in **PyTorch** for **CIFAR-10**. Uses a **routed CNN** (multi-expert attention), strong augmentation with **mixup**, and a reproducible training pipeline. Built for engineering review and hiring managers.
+End-to-end PyTorch project for CIFAR-10 with a custom **routed CNN** (multi-expert attention), mixup regularisation, cosine LR, and a reproducible training pipeline. Designed with production conventions: modular code, configs, and automation.
 
-## Highlights
-- Routing backbone: multiple conv experts gated by GAP→MLP→softmax
-- Training: SGD + momentum, cosine LR schedule, optional label smoothing
-- Data: CIFAR-10 transforms; early-phase mixup
-- Reproducibility: deterministic seeds, clean I/O, single-command setup
+## Features
+- Routing backbone with K conv experts and learned attention gate
+- SGD + momentum, cosine schedule, optional label smoothing
+- Clean configuration (YAML), deterministic seeding
+- Notebook for exploration and full script training
 
-## Structure
+## Repository Layout
 deep-learning-cifar10-routing-net/
-├── src/
-│   ├── models/                # routing_net.py
-│   ├── training/              # add train.py for CLI pipeline
-│   └── utils/                 # my_utils.py
-├── notebooks/                 # cifar10_routing_net.ipynb
-├── docs/                      # Report.pdf
-├── report/                    # figures (git-ignored)
-├── data/                      # datasets (git-ignored)
-├── requirements.txt
+├── src/                     model, training, utils
+├── notebooks/               cifar10_routing_net.ipynb
+├── configs/                 training_config.yaml
+├── docs/                    report.pdf
+├── requirements.txt         dependencies
 └── README.md
 
 ## Quickstart
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-jupyter notebook notebooks/cifar10_routing_net.ipynb
+python -m src.training.train --config configs/training_config.yaml
+
+## Evaluate
+python -m src.training.evaluate
 
 ## Skills
-Deep Learning (CNNs, routing/attention, augmentation, schedulers),
-Software Engineering (modular PyTorch, reproducible setup, repo hygiene),
-Experimentation (metrics, technical reporting)
+Deep Learning (CNNs, attention/routing, augmentation, schedulers), Software Engineering (modular PyTorch, config-driven training, repo hygiene), Experimentation (metrics, reporting).
 
 License: MIT
